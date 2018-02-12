@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AZPeerToPeerConectvity/ViewController.swift"
+            timestampString = "540123741.525458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "sendText(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AZPeerToPeerConectvity.ViewController.sendText(Any) -&gt; ()"
+                  moduleName = "AZPeerToPeerConectvity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afrozzaheer/Documents/My%20RND/AZPeerToPeerConectvity/AZPeerToPeerConectvity/ViewController.swift"
+                  timestampString = "539865962.5276231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.String in AZPeerToPeerConectvity.ViewController.sendText(Any) -&gt; ()"
+                  moduleName = "AZPeerToPeerConectvity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afrozzaheer/Documents/My%20RND/AZPeerToPeerConectvity/AZPeerToPeerConectvity/ViewController.swift"
+                  timestampString = "539865962.532485"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B6A6561F6017D40059D5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6A6551F6017D40059D5BC /* AppDelegate.swift */; };
+		20B6A6581F6017D40059D5BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6A6571F6017D40059D5BC /* ViewController.swift */; };
+		20B6A65B1F6017D40059D5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B6A6591F6017D40059D5BC /* Main.storyboard */; };
+		20B6A65D1F6017D40059D5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B6A65C1F6017D40059D5BC /* Assets.xcassets */; };
+		20B6A6601F6017D40059D5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B6A65E1F6017D40059D5BC /* LaunchScreen.storyboard */; };
+		35F48AF5B0F6DF6E465430BF /* Pods_AZPeerToPeerConectvity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08CBFCE43465BC44DC17132 /* Pods_AZPeerToPeerConectvity.framework */; };
+		B861CA44202B21540023B650 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B861CA43202B21540023B650 /* MultipeerConnectivity.framework */; };
+		B861CE01202D79A70023B650 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861CE00202D79A70023B650 /* ChatTableViewCell.swift */; };
+		B89EEF612031A435000FDBE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B89EEF602031A435000FDBE4 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFAEC294BD746D588A660B0 /* Pods-AZPeerToPeerConectvity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPeerToPeerConectvity.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity.release.xcconfig"; sourceTree = "<group>"; };
+		20B6A6521F6017D40059D5BC /* AZPeerToPeerConectvity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZPeerToPeerConectvity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B6A6551F6017D40059D5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20B6A6571F6017D40059D5BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20B6A65A1F6017D40059D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20B6A65C1F6017D40059D5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20B6A65F1F6017D40059D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20B6A6611F6017D40059D5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221813D983C52FEC3B3697D3 /* Pods-AZPeerToPeerConectvity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPeerToPeerConectvity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity.debug.xcconfig"; sourceTree = "<group>"; };
+		B861CA43202B21540023B650 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		B861CE00202D79A70023B650 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B89EEF602031A435000FDBE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E08CBFCE43465BC44DC17132 /* Pods_AZPeerToPeerConectvity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZPeerToPeerConectvity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B6A64F1F6017D40059D5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861CA44202B21540023B650 /* MultipeerConnectivity.framework in Frameworks */,
+				35F48AF5B0F6DF6E465430BF /* Pods_AZPeerToPeerConectvity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121DEF15A32ACF19935F268D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B861CA43202B21540023B650 /* MultipeerConnectivity.framework */,
+				E08CBFCE43465BC44DC17132 /* Pods_AZPeerToPeerConectvity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B6A6491F6017D40059D5BC = {
+			isa = PBXGroup;
+			children = (
+				20B6A6541F6017D40059D5BC /* AZPeerToPeerConectvity */,
+				20B6A6531F6017D40059D5BC /* Products */,
+				4028EFC60E49832D89CD93EE /* Pods */,
+				121DEF15A32ACF19935F268D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20B6A6531F6017D40059D5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B6A6521F6017D40059D5BC /* AZPeerToPeerConectvity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B6A6541F6017D40059D5BC /* AZPeerToPeerConectvity */ = {
+			isa = PBXGroup;
+			children = (
+				B89EEF602031A435000FDBE4 /* README.md */,
+				20B6A6551F6017D40059D5BC /* AppDelegate.swift */,
+				20B6A6571F6017D40059D5BC /* ViewController.swift */,
+				20B6A6591F6017D40059D5BC /* Main.storyboard */,
+				20B6A65C1F6017D40059D5BC /* Assets.xcassets */,
+				20B6A65E1F6017D40059D5BC /* LaunchScreen.storyboard */,
+				20B6A6611F6017D40059D5BC /* Info.plist */,
+				B861CE00202D79A70023B650 /* ChatTableViewCell.swift */,
+			);
+			path = AZPeerToPeerConectvity;
+			sourceTree = "<group>";
+		};
+		4028EFC60E49832D89CD93EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221813D983C52FEC3B3697D3 /* Pods-AZPeerToPeerConectvity.debug.xcconfig */,
+				1AFAEC294BD746D588A660B0 /* Pods-AZPeerToPeerConectvity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B6A6511F6017D40059D5BC /* AZPeerToPeerConectvity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B6A6641F6017D40059D5BC /* Build configuration list for PBXNativeTarget "AZPeerToPeerConectvity" */;
+			buildPhases = (
+				3F72E0168B2B37395492BF1F /* [CP] Check Pods Manifest.lock */,
+				20B6A64E1F6017D40059D5BC /* Sources */,
+				20B6A64F1F6017D40059D5BC /* Frameworks */,
+				20B6A6501F6017D40059D5BC /* Resources */,
+				719BB7BA0DDD191C85CE23E1 /* [CP] Embed Pods Frameworks */,
+				EC25C018803CDCE7F566B213 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZPeerToPeerConectvity;
+			productName = AZPeerToPeerConectvity;
+			productReference = 20B6A6521F6017D40059D5BC /* AZPeerToPeerConectvity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B6A64A1F6017D40059D5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AfrozZaheer;
+				TargetAttributes = {
+					20B6A6511F6017D40059D5BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CASVKBQG32;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20B6A64D1F6017D40059D5BC /* Build configuration list for PBXProject "AZPeerToPeerConectvity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20B6A6491F6017D40059D5BC;
+			productRefGroup = 20B6A6531F6017D40059D5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B6A6511F6017D40059D5BC /* AZPeerToPeerConectvity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B6A6501F6017D40059D5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B6A6601F6017D40059D5BC /* LaunchScreen.storyboard in Resources */,
+				20B6A65D1F6017D40059D5BC /* Assets.xcassets in Resources */,
+				B89EEF612031A435000FDBE4 /* README.md in Resources */,
+				20B6A65B1F6017D40059D5BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F72E0168B2B37395492BF1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZPeerToPeerConectvity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719BB7BA0DDD191C85CE23E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZPeerToPeerConnection/AZPeerToPeerConnection.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZPeerToPeerConnection.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC25C018803CDCE7F566B213 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B6A64E1F6017D40059D5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861CE01202D79A70023B650 /* ChatTableViewCell.swift in Sources */,
+				20B6A6581F6017D40059D5BC /* ViewController.swift in Sources */,
+				20B6A6561F6017D40059D5BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20B6A6591F6017D40059D5BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B6A65A1F6017D40059D5BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20B6A65E1F6017D40059D5BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B6A65F1F6017D40059D5BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20B6A6621F6017D40059D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20B6A6631F6017D40059D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20B6A6651F6017D40059D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221813D983C52FEC3B3697D3 /* Pods-AZPeerToPeerConectvity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CASVKBQG32;
+				INFOPLIST_FILE = AZPeerToPeerConectvity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AfrozZaheer.AZPeerToPeerConectvity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20B6A6661F6017D40059D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFAEC294BD746D588A660B0 /* Pods-AZPeerToPeerConectvity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CASVKBQG32;
+				INFOPLIST_FILE = AZPeerToPeerConectvity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AfrozZaheer.AZPeerToPeerConectvity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B6A64D1F6017D40059D5BC /* Build configuration list for PBXProject "AZPeerToPeerConectvity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B6A6621F6017D40059D5BC /* Debug */,
+				20B6A6631F6017D40059D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B6A6641F6017D40059D5BC /* Build configuration list for PBXNativeTarget "AZPeerToPeerConectvity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B6A6651F6017D40059D5BC /* Debug */,
+				20B6A6661F6017D40059D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B6A64A1F6017D40059D5BC /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module AZPeerToPeerConnection {
+  umbrella header "AZPeerToPeerConnection-umbrella.h"
+
+  export *
+  module * { export * }
+}
