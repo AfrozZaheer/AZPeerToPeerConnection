@@ -12,8 +12,9 @@ import MultipeerConnectivity
 
 @objc public protocol P2PServiceHandlerDelegate: class {
     
-    func didConnectedTo(_ serviceHandler:P2PServiceHandler, peer:MCPeerID)
-    func didFailToConnect(_ serviceHandler:P2PServiceHandler)
+    func didConnectedTo(_ serviceHandler:P2PServiceHandler,to peer:MCPeerID)
+    func didFailToConnect(_ serviceHandler:P2PServiceHandler, with peer: MCPeerID)
+    func connecting(_ serviceHandler:P2PServiceHandler,to peer:MCPeerID)
     func didRecieve(_ serviceHandler:P2PServiceHandler, data:[String: Any])
     @objc optional func didCancelBrowserViewController(_ serviceHandler:P2PServiceHandler, browser: MCBrowserViewController)
     @objc optional func didFinshedPickingBrowserViewController(_ serviceHandler:P2PServiceHandler, browser: MCBrowserViewController)
@@ -101,14 +102,14 @@ extension P2PServiceHandler: MCSessionDelegate {
         switch state {
         case MCSessionState.connected:
             print("Connected: \(peerID.displayName)")
-            self.delegate?.didConnectedTo(self, peer: peerID)
+            self.delegate?.didConnectedTo(self, to: peerID)
 
         case MCSessionState.connecting:
             print("Connecting: \(peerID.displayName)")
-            
+            self.delegate?.connecting(self, to: peerID)
         case MCSessionState.notConnected:
             session.disconnect()
-            self.delegate?.didFailToConnect(self)
+            self.delegate?.didFailToConnect(self, with: peerID)
             print("Not Connected: \(peerID.displayName)")
         }
     }

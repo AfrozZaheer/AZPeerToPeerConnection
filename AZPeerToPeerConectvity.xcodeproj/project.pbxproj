@@ -13,9 +13,10 @@
 		20B6A65D1F6017D40059D5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B6A65C1F6017D40059D5BC /* Assets.xcassets */; };
 		20B6A6601F6017D40059D5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B6A65E1F6017D40059D5BC /* LaunchScreen.storyboard */; };
 		35F48AF5B0F6DF6E465430BF /* Pods_AZPeerToPeerConectvity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08CBFCE43465BC44DC17132 /* Pods_AZPeerToPeerConectvity.framework */; };
+		B800C41A20343A180056A76A /* PeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B800C41920343A180056A76A /* PeerTableViewCell.swift */; };
 		B861CA44202B21540023B650 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B861CA43202B21540023B650 /* MultipeerConnectivity.framework */; };
 		B861CE01202D79A70023B650 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861CE00202D79A70023B650 /* ChatTableViewCell.swift */; };
-		B89EEF612031A435000FDBE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B89EEF602031A435000FDBE4 /* README.md */; };
+		B86CE7D620355114008FA239 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B86CE7D520355114008FA239 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +29,10 @@
 		20B6A65F1F6017D40059D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20B6A6611F6017D40059D5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221813D983C52FEC3B3697D3 /* Pods-AZPeerToPeerConectvity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZPeerToPeerConectvity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZPeerToPeerConectvity/Pods-AZPeerToPeerConectvity.debug.xcconfig"; sourceTree = "<group>"; };
+		B800C41920343A180056A76A /* PeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerTableViewCell.swift; sourceTree = "<group>"; };
 		B861CA43202B21540023B650 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		B861CE00202D79A70023B650 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
-		B89EEF602031A435000FDBE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B86CE7D520355114008FA239 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E08CBFCE43465BC44DC17132 /* Pods_AZPeerToPeerConectvity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZPeerToPeerConectvity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		20B6A6491F6017D40059D5BC = {
 			isa = PBXGroup;
 			children = (
+				B86CE7D520355114008FA239 /* README.md */,
 				20B6A6541F6017D40059D5BC /* AZPeerToPeerConectvity */,
 				20B6A6531F6017D40059D5BC /* Products */,
 				4028EFC60E49832D89CD93EE /* Pods */,
@@ -77,7 +80,6 @@
 		20B6A6541F6017D40059D5BC /* AZPeerToPeerConectvity */ = {
 			isa = PBXGroup;
 			children = (
-				B89EEF602031A435000FDBE4 /* README.md */,
 				20B6A6551F6017D40059D5BC /* AppDelegate.swift */,
 				20B6A6571F6017D40059D5BC /* ViewController.swift */,
 				20B6A6591F6017D40059D5BC /* Main.storyboard */,
@@ -85,6 +87,7 @@
 				20B6A65E1F6017D40059D5BC /* LaunchScreen.storyboard */,
 				20B6A6611F6017D40059D5BC /* Info.plist */,
 				B861CE00202D79A70023B650 /* ChatTableViewCell.swift */,
+				B800C41920343A180056A76A /* PeerTableViewCell.swift */,
 			);
 			path = AZPeerToPeerConectvity;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 			files = (
 				20B6A6601F6017D40059D5BC /* LaunchScreen.storyboard in Resources */,
 				20B6A65D1F6017D40059D5BC /* Assets.xcassets in Resources */,
-				B89EEF612031A435000FDBE4 /* README.md in Resources */,
+				B86CE7D620355114008FA239 /* README.md in Resources */,
 				20B6A65B1F6017D40059D5BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B861CE01202D79A70023B650 /* ChatTableViewCell.swift in Sources */,
+				B800C41A20343A180056A76A /* PeerTableViewCell.swift in Sources */,
 				20B6A6581F6017D40059D5BC /* ViewController.swift in Sources */,
 				20B6A6561F6017D40059D5BC /* AppDelegate.swift in Sources */,
 			);

@@ -31,14 +31,14 @@ class ViewController: UIViewController {
         
     }
     
- 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
 
     @IBAction func presentMCBrowser(_ sender: Any) {
-        connection.joinSession(vc: self)
+        
+        connection.joinSession(vc: self, mcBrowser: nil) // nil == default mcbrowsr
     }
     @IBAction func sendText(_ sender: Any) {
         self.view.endEditing(true)
@@ -50,14 +50,15 @@ class ViewController: UIViewController {
     }
 }
 extension ViewController: P2PServiceHandlerDelegate {
-    func didConnectedTo(_ serviceHandler: P2PServiceHandler, peer: MCPeerID) {
-
-
+    func didConnectedTo(_ serviceHandler: P2PServiceHandler, to peer: MCPeerID) {
+        
     }
     
-    func didFailToConnect(_ serviceHandler: P2PServiceHandler) {
+    func didFailToConnect(_ serviceHandler: P2PServiceHandler, with peer: MCPeerID) {
         
-
+    }
+    
+    func connecting(_ serviceHandler: P2PServiceHandler, to peer: MCPeerID) {
         
     }
     
@@ -72,7 +73,6 @@ extension ViewController: P2PServiceHandlerDelegate {
 
             }
         }
-        
     }
 }
 extension ViewController: UITextFieldDelegate {
