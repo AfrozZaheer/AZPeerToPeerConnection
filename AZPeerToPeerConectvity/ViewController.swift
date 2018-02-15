@@ -41,7 +41,6 @@ class ViewController: UIViewController {
         connection.joinSession(vc: self, mcBrowser: nil) // nil == default mcbrowsr
     }
     @IBAction func sendText(_ sender: Any) {
-        self.view.endEditing(true)
         connection.sendData(data: ["message": textField.text ?? "defaultValue"])
         messages.append(textField.text!)
         cellIdentifier = CellIdetifier.sender.rawValue

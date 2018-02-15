@@ -52,6 +52,7 @@ open class P2PServiceHandler: NSObject {
         self.serviceName = serviceName
         mcAdvertiserAssistant = MCAdvertiserAssistant(serviceType: serviceName, discoveryInfo: nil, session: mcSession)
         mcAdvertiserAssistant.start()
+        
     }
     public func joinSession(vc: UIViewController, mcBrowser: MCBrowserViewController?) {
         if mcBrowser == nil {
@@ -63,6 +64,10 @@ open class P2PServiceHandler: NSObject {
             mcBrowser?.delegate = self
             vc.present(mcBrowser!, animated: true)
         }
+    }
+    
+    public func disconnectSession() {
+        mcSession.disconnect()
     }
     
     //MARK: - SendData to other Peer

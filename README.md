@@ -9,16 +9,18 @@
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZCollectionViewController)
 
 
-<!--<p align="center">-->
-<!--<a href="https://i.imgur.com/YtzbUed.gif">-->
-<!--<img src="https://i.imgur.com/YtzbUed.gif" height="480">-->
-<!--</a>-->
-<!--</p>-->
+<p align="center">
+<a href="https://i.imgur.com/e1tKOoW.gif">
+<img src="https://i.imgur.com/e1tKOoW.gif" height="480">
+</a>
+</p>
 
 
 ## Features
 
-*
+* Multipeer Connectivity
+* Connection via Bluetooth or Wifi
+* No need write all session, browser, services delegate
 
 ## Installation
 
