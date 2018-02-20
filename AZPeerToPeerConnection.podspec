@@ -4,14 +4,13 @@ Pod::Spec.new do |s|
 
   s.name         = "AZPeerToPeerConnection"
   s.version      = "0.1.0"
-  s.summary      = "Automatic pagination handling and loading views"
+  s.summary      = "Wrapper on top of Apple iOS Multipeer Connectivity framework"
 
   s.description  = <<-DESC
-        Automatic pagination handling
-        No more awkward empty TableView
+        AZPeerToPeerConnectivity is a wrapper on top of Apple iOS Multipeer Connectivity framework. It provides an easier way to create and manage sessions. Easy to integrate
     DESC
 
-  s.homepage     = "https://AfrozNXB@bitbucket.org/AfrozNXB/privatepodtest.git"
+  s.homepage     = "https://github.com/AfrozZaheer/AZPeerToPeerConnection"
 
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.author       = { "AfrozZaheer" => "afrozezaheer@gmail.com" }
 
-  s.source       = { :git => "." }
-  s.platform     = :ios, "9.0"
+  s.source       = { :git => "https://github.com/AfrozZaheer/AZPeerToPeerConnection.git" }
+  s.platform     = :ios, "10.0"
 
 
  
