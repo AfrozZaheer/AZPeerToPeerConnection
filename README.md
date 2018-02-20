@@ -4,9 +4,9 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Swift version](https://img.shields.io/badge/swift%20-4.0-orange.svg)](https://img.shields.io/badge/swift%20-4.0-orange.svg)
 [![Support Dependecy Manager](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)](https://img.shields.io/badge/support-CocoaPods-red.svg?style=flat.svg)
-[![Version](https://img.shields.io/cocoapods/v/AZCollectionViewController.svg?style=flat)](https://cocoapods.org/pods/AZCollectionViewController)
+[![Version](https://img.shields.io/cocoapods/v/AZPeerToPeerConnection.svg?style=flat)](https://cocoapods.org/pods/AZPeerToPeerConnection)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat.svg)
-[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZCollectionViewController)
+[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/AZPeerToPeerConnection)
 
 
 <p align="center">
